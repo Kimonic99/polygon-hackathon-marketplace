@@ -10,22 +10,22 @@ function MyApp({ Component, pageProps }) {
       <nav className="border-b p-6">
         <p className="text-4xl font-bold">Onlypolygon Marketplace</p>
         <div className="flex mt-4">
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a className="mr-4 text-purple-500">
               Home
             </a>
           </Link>
-          <Link href="/create-nft">
+          <Link legacyBehavior href="/create-nft">
             <a className="mr-6 text-purple-500">
               Sell NFT
             </a>
           </Link>
-          <Link href="/my-nfts">
+          <Link legacyBehavior href="/my-nfts">
             <a className="mr-6 text-purple-500">
               My NFTs
             </a>
           </Link>
-          <Link href="/dashboard">
+          <Link legacyBehavior href="/dashboard">
             <a className="mr-6 text-purple-500">
               Dashboard
             </a>
